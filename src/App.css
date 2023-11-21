@@ -40,3 +40,55 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Sorting Visualizer App CSS */
+
+body {
+  background-color: rgba(12, 120, 120);
+}
+
+.App {
+  text-align: center;
+}
+
+.array-container {
+  border: solid 3px black;
+  margin: 30px 0 auto auto;
+  background-color: rgba(12, 5, 34, 0.8);
+  display: inline-block;
+}
+
+.array-bar {
+  width: 2px;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+
+.buttons{
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  margin-left: 30px;
+}
+
+.buttons button {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 50px;
+  justify-content: space-around;
+  background: rgba(12, 5, 34, 0.8);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: whitesmoke;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: turquoise;
+  color: black;
+}
