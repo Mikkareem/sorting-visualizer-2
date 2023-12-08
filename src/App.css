@@ -69,31 +69,35 @@ body {
   /* margin: 0 1px; */
 }
 
-/* 
-.buttons{
-  display: inline-block;
-  position: absolute; 
-  top: 20%;
-  margin-left: 30px;
-} */
+
+.flex-box{
+  display: flex;
+  background-color: yellow;
+  flex-direction: column;
+}
 
 .buttons button {
   /* display: flex; */
-  margin-bottom: 20px;
+  margin: 20px;
+  padding: 0;
   width: 100px;
   height: 50px;
-  justify-content: space-around;
   background: rgba(12, 5, 34, 0.8);
   border: none;
   border-radius: 5px;
   outline: none;
   color: whitesmoke;
   font-weight: bold;
-  letter-spacing: 1px;
   cursor: pointer;
 }
 
 .buttons button:hover {
   background-color: turquoise;
   color: black;
+}
+
+@media (min-width: 700px) {
+  .array-bar {
+    border: solid 1px black;
+  }
 }

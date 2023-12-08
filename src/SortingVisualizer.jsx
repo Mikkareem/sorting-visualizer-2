@@ -59,7 +59,7 @@ class SortingVisualiser extends React.Component {
         const {array} = this.state;
 
         return (
-            <div>
+            <div className='flex-box'>
                 <div className='array-container'>
                     {array.map((value, id) => (
                         <div className='array-bar'
